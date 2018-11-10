@@ -1,4 +1,4 @@
-/* Общие стили для документа и блоков, менять не надо */
+
 
 body {
     width: 450px;
@@ -18,7 +18,7 @@ body {
     border: 2px solid #cccccc;
 }
 
-/* Собственные стили блоков */
+
 
 .header {
     min-height: 40px;
@@ -27,23 +27,26 @@ body {
 
 .logo {
     float: left;
-    width: 100px;
+    width: 200px;
     text-align: center;
-    background-color: darkgray
+    background-color: darkslategray
 }
 
 .contacts {
     float: right;
-    width: 110px;
+    width: 160px;
     text-align: center;
+    background-color: darkslategray
 }
 
 .about-us {
     width: 200px;
     margin-bottom: 10px;
+
 }
 
 .about-us h1 {
+    right: 200px;
     
 }
 
@@ -56,5 +59,6 @@ body {
 }
 
 .footer {
+    background-color: darkslategray
     
 }
